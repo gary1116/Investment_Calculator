@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* App styling */
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: calc(100vh + 50px); /* Extend background to cover extra space */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #9c27b0 0%, #0288d1 25%, #ef5350 50%, #f57c00 75%, #fbc02d 100%);
+  background-size: 200% calc(200% + 50px); /* Adjust background size */
+  overflow: hidden;
+  animation-name: ChangeColor;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+
+/* Fullscreen element */
+.fullscreen-element {
+  width: 100%;
+  min-height: 100vh; /* Ensure it covers the entire viewport height */
+}
+@keyframes ChangeColor {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p{
+  color: rgb(255, 255, 255);
+}

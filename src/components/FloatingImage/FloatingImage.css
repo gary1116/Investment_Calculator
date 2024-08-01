@@ -1,0 +1,64 @@
+.floater img {
+    width: 50px;
+    animation: float 7s linear infinite;
+}
+
+.floater {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -50px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+.floater img:nth-child(1) {
+    animation-delay: 2s;
+    width: 40px;
+}
+
+.floater img:nth-child(2) {
+    animation-delay: 3s;
+    width: 35px;
+}
+
+.floater img:nth-child(4) {
+    animation-delay: 4s;
+    width: 50px
+}
+
+.floater img:nth-child(6) {
+    animation-delay: 5s;
+}
+
+.floater img:nth-child(7) {
+    animation-delay: 1s;
+}
+
+.floater img:nth-child(8) {
+    animation-delay: 1.5s;
+}
+
+
+.floater img:nth-child(9) {
+    animation-delay: 3.5s;
+}
