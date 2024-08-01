@@ -1,0 +1,10 @@
+.mainContent {
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: #36454F	;
+    overflow: hidden;
+    margin: 50px;
+    z-index: 1;
+    border-radius: 12px;
+}

@@ -1,0 +1,25 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+h1 {
+    background: linear-gradient(-120deg, #ff0000	, #0800ff);
+    background-size: 200% 200%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: colorShift 5s ease-in-out infinite;
+  }
+
+  @keyframes colorShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

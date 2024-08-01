@@ -3,6 +3,18 @@ html, body {
   margin: 0;
 }
 
+.teko-saka {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+*{
+  font-family: teko-saka,-apple-system,
+    sans-serif;
+}
+
 /* App styling */
 .App {
   text-align: center;
@@ -45,3 +57,4 @@ html, body {
 p{
   color: rgb(255, 255, 255);
 }
+
