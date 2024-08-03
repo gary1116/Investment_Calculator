@@ -1,0 +1,40 @@
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+    background-color: #1E7C59;
+}
+
+.leftSection, .rightSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    color: #a3d7c9;
+    font-size: large;
+    font-weight: 500;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid #a3d7c9;
+    border-radius: 5px;
+    cursor: pointer;
+    caret-color: #a3d7c9;
+    font-size: 20px;
+    caret-shape:block;
+    height: 30px;
+    color: #a3d7c9;
+    padding-left: 10px;
+    margin: 10px;
+    
+}
+
+input:hover{
+    border: 2px solid rgb(119, 198, 233);
+}
+
