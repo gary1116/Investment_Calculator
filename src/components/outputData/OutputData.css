@@ -1,0 +1,12 @@
+.DataList{
+height: 450px;
+width: 600px;
+border-spacing: 15px; /* Adjust value as needed */
+
+}
+th{
+    color: #1E7C59;
+}
+tr{
+    color: #a3d7c9;
+}

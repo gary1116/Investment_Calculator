@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 250px;
     width: 600px;
     background-color: #1E7C59;
 }
@@ -38,3 +38,21 @@ input:hover{
     border: 2px solid rgb(119, 198, 233);
 }
 
+label{
+    margin-right: 100px;
+}
+
+button{
+    position: relative;
+    /* top: 100px; */
+    right: 70px;
+    background: transparent;
+    height: 30px;
+    width: 100px;
+    margin-top: 200px;
+    position: absolute;
+    margin-right: 250px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: transparent;
+}

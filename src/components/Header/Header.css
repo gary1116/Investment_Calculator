@@ -4,7 +4,7 @@
     margin: 20px;
 }
 h1 {
-    background: linear-gradient(-120deg, #ff0000	, #0800ff);
+    background: linear-gradient(-120deg, black	, white);
     background-size: 200% 200%;
     color: transparent;
     background-clip: text;
