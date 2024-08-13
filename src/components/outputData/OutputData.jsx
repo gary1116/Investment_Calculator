@@ -37,10 +37,6 @@ function OutputData(props) {
     investedCapital.push(Number(investedCap).toFixed(0));
    }
  
-   console.log(investmentValues);
-   console.log(interestPerYear);
-   console.log(totalInterest);
-   console.log(investedCapital);
 
    // Render the table with the calculated values
    return (

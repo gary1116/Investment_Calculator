@@ -14,7 +14,7 @@ function MainContainer() {
     <>
       <div className="mainContent">
       <ExtractDetails setInitialInvestment={setInitialInvestment} setExpectedReturn={setExpectedReturn} setAnnualInvestment={setAnnualInvestment} setDuration={setDuration}/>
-      {(initialInvestment && expectedReturn && annualInvestment && duration)===undefined ?<p>Please fill all the values above</p> :<OutputData initialInvestment={initialInvestment} annualInvestment={annualInvestment} expectedReturn={expectedReturn} duration={duration} />}
+      {(initialInvestment && expectedReturn && annualInvestment && duration)===undefined || duration <= 0  || (initialInvestment && expectedReturn && annualInvestment && duration)  < 0 ? <><p>Please fill all the values above</p> <span style={ {color: 'white'} }>all values must be above 0</span></>:<OutputData initialInvestment={initialInvestment} annualInvestment={annualInvestment} expectedReturn={expectedReturn} duration={duration} />}
       
       </div>
     </>

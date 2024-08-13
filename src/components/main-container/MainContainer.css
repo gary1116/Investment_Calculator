@@ -20,13 +20,13 @@
   
   /* Track */
   .mainContent::-webkit-scrollbar-track {
-    background: #1E7C59; /* Background color of the track */
+    background: #f1f1f1; /* Background color of the track */
     border-radius: 10px;
   }
   
   /* Handle */
   .mainContent::-webkit-scrollbar-thumb {
-    background-color: #1A1D1B; /* Color of the scrollbar handle */
+    background-color: #1E7C59; /* Color of the scrollbar handle */
     border-radius: 10px; /* Roundness of the scrollbar handle */
     border: 3px solid #f1f1f1; /* Padding around the handle */
   }

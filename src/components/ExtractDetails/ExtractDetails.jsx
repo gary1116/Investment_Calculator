@@ -1,4 +1,4 @@
-import {React,  useState } from 'react'
+import {React} from 'react'
 import '../ExtractDetails/ExtractDetails.css';
 
 function ExtractDetails(props) {
